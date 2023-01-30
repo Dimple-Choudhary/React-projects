@@ -1,0 +1,126 @@
+* {
+    /* box-sizing: border-box; */
+     margin :0;
+    padding:0;    
+}
+
+
+body{
+    background-color: #1A1B21;
+width:100%;
+height:100%;
+
+}
+.stick{
+  background-color: #1A1B21;
+
+font-family: 'Inter';
+color: #FFFFFF;
+line-height: 15px;
+overflow: hidden;
+}
+.Name{
+    position: absolute;
+  left: 50px;
+  top: 310px;
+ font-style: normal;
+ font-weight: 700;
+font-size: 25px;
+text-align: center;
+}
+.Profession{
+    position: absolute;
+left: 50px;
+top: 360px;
+font-weight: 400;
+font-size: 12.8px;
+color: #F3BF99;
+}
+.button-email{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 115px;
+height: 34px;
+left: 28px;
+top: 400px;
+background: #FFFFFF;
+border-radius: 6px;
+}
+
+.button-Linkedin{
+     display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 115px;
+height: 34px;
+left: 150px;
+top: 400px;
+background: #5093E2;
+border-radius: 6px;
+
+}
+.img-LinkedIn1{
+    background-color:white;
+    margin-right:20px;
+  width:20px;
+  height:20px;
+}
+.About{
+position: absolute;
+
+top: 450px;
+}
+.About-p{
+position: absolute; 
+top: 500px; 
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #DCDCDC;
+padding-left:5px;
+
+}
+.Interest{
+
+
+position: absolute;
+
+top: 650px;
+
+}
+.Interest-p{
+ position: absolute; 
+top: 700px; 
+font-size: 18px;
+line-height: 150%;
+color: #DCDCDC;
+padding-left:5px;
+}
+.Footer{
+   position: absolute;
+width: 100%;
+height: 64px;
+top: 730px;
+background: #161619;
+}
+.Footer img{
+  margin-right:30px;
+ margin-top:10px; 
+  width:45px;
+  height:45px;
+}
+@media only screen and (max-width:20px) {
+  .About-p{
+    width:25%;
+  }
+}
+@media only screen and (max-width:20px) {
+  .About-p{
+    width:25%;
+  }
+}
